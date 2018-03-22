@@ -1,9 +1,9 @@
 body {font-family: "futura", monospace;}
 
-.list-item {
+.ww {
   width: 600px;
   height: 90%;
-  background: rgb(255, 0, 0, 0.1);
+  background: rgba(255, 0, 0, 0.1);
   background-color: red;
   margin-left: 10px;
   display: inline-block;

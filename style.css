@@ -1,0 +1,26 @@
+body {font-family: "futura", monospace;}
+
+.list-item {
+  width: 600px;
+  height: 90%;
+  background: rgb(255, 0, 0, 0.1);
+  background-color: red;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.scroll {
+  height: 100vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: auto;
+
+
+
+
+
+
+
+
+}

@@ -1,26 +1,43 @@
 body {font-family: "futura", monospace;}
 
+h1{width: 200px;
+height: 100%;
+margin-left: 30px;
+float: left;
+
+}
+
 .ww {
   width: 600px;
-  height: 90%;
-  background: rgba(255, 0, 0, 0.1);
-  background-color: red;
+  height: 100%;
   margin-left: 10px;
-  display: inline-block;
+  float: left;
+  position: relative;
+  list-style: none;
+}
+.ww .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  background-color: rgba(100,255,255,.5);
+  opacity: 0;
+  transition: 360ms;
+
+}
+
+.ww:hover .content {
+  opacity: 1;
 }
 
 .scroll {
   height: 100vh;
   overflow-x: scroll;
   overflow-y: hidden;
-  white-space: nowrap;
   width: auto;
+}
 
-
-
-
-
-
-
-
+.ww img{
+  width: 100%;
+  height: auto;
 }

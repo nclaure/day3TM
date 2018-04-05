@@ -1,9 +1,12 @@
-body {font-family: "monospace", monospace;}
+body {font-family: "monospace", monospace;
+background-color: #2b3444;}
+
 
 h1{width: 200px;
 height: 100%;
 margin-left: 30px;
 float: left;
+color:#8e9aaf;
 
 }
 
@@ -16,14 +19,15 @@ float: left;
   list-style: none;
   display: inline-block;
   margin: 25px 10px;
+  padding-right: 5em; /* NOTE: just delete this to go regular */
 }
 .ww .content {
   position: absolute;
   top: 0%;
   left: 0%;
-  right: 0%;
+  right: 11.7%; /* NOTE: keepthis0%togobacktonormal */
   bottom: 0;
-  background-color: rgba(255,10,255,.5);
+  background-color: rgba(206,249,255,.5);
   opacity: 0;
   transition: 360ms;
   font-size: 55px;
